@@ -60,7 +60,7 @@ class MainImportantClass:Application() {
     }
 
     private fun gtjgtjtigjijgtjtigjgtjjtgijtgi() {
-        MyTracker.initTracker("88792592140372975184", this)
+        MyTracker.initTracker("75392315097586960285", this)
     }
 
     private fun tgtjgtjitjgijtgjtgjjtg() {
