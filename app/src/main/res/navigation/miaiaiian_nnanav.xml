@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/miaiaiian_nnanav"
+    app:startDestination="@id/mainOneeeFragment">
+
+    <fragment
+        android:id="@+id/mainOneeeFragment"
+        android:name="com.skgames.trafficriderr.ffrragggggg.MainOneeeFragment"
+        android:label="fragment_main_oneee"
+        tools:layout="@layout/fragment_main_oneee" >
+        <action
+            android:id="@+id/action_mainOneeeFragment_to_cooontryryryFragment"
+            app:destination="@id/cooontryryryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cooontryryryFragment"
+        android:name="com.skgames.trafficriderr.ffrragggggg.CooontryryryFragment"
+        android:label="fragment_cooontryryry"
+        tools:layout="@layout/fragment_cooontryryry" >
+        <action
+            android:id="@+id/action_cooontryryryFragment_to_tvoooMainFragment"
+            app:destination="@id/tvoooMainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tvoooMainFragment"
+        android:name="com.skgames.trafficriderr.ffrragggggg.TvoooMainFragment"
+        android:label="fragment_tvooo_main"
+        tools:layout="@layout/fragment_tvooo_main" >
+        <action
+            android:id="@+id/action_tvoooMainFragment_to_preeefilterFragment"
+            app:destination="@id/preeefilterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/preeefilterFragment"
+        android:name="com.skgames.trafficriderr.ffrragggggg.PreeefilterFragment"
+        android:label="fragment_preeefilter"
+        tools:layout="@layout/fragment_preeefilter" >
+        <action
+            android:id="@+id/action_preeefilterFragment_to_fiilterFragment"
+            app:destination="@id/fiilterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fiilterFragment"
+        android:name="com.skgames.trafficriderr.ffrragggggg.FiilterFragment"
+        android:label="fragment_fiilter"
+        tools:layout="@layout/fragment_fiilter" />
+</navigation>

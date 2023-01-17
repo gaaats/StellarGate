@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "88191126627",
+    "project_id": "stellar-gate-9926f",
+    "storage_bucket": "stellar-gate-9926f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88191126627:android:5e6e226dbae95958447c56",
+        "android_client_info": {
+          "package_name": "com.skgames.trafficriderr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88191126627-m1us5pfgtfh2iflpqnomq86eqvjjdnu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH2Q6oDlH7fyyPJBDiGagoAtNVk0uM2E4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88191126627-m1us5pfgtfh2iflpqnomq86eqvjjdnu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

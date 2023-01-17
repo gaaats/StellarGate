@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gaammeme_nananan"
+    app:startDestination="@id/gameTviiFragment">
+
+    <fragment
+        android:id="@+id/gameTviiFragment"
+        android:name="com.skgames.trafficriderr.GameTviiFragment"
+        android:label="fragment_game_tvii"
+        tools:layout="@layout/fragment_game_tvii" >
+        <action
+            android:id="@+id/action_gameTviiFragment_to_gaameThreeFragment"
+            app:destination="@id/gaameThreeFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/gameTviiFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaameThreeFragment"
+        android:name="com.skgames.trafficriderr.GaameThreeFragment"
+        android:label="fragment_gaame_three"
+        tools:layout="@layout/fragment_gaame_three" >
+        <action
+            android:id="@+id/action_gaameThreeFragment_to_gameTviiFragment"
+            app:destination="@id/gameTviiFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/gameTviiFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
